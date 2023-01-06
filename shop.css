@@ -1,0 +1,119 @@
+* {
+    font-family: sf;
+    
+}
+html, body {
+    padding: 0;
+    margin: 0;
+
+}
+
+#main {
+    padding: 0 2em;
+}
+
+header {
+    background-color: #F9E6FB;
+    text-align: right;
+}
+
+h1 {
+    vertical-align: text-bottom;
+}
+.filters {
+    display: flex;
+    justify-content;
+}
+
+.filters button {
+    background: #FFDFD3;
+    border: 3px solid #957DAD;
+    border-radius: 10px;
+    padding: 5px 12px;
+    margin-right: 1ex;
+}
+
+.filters button.active {
+    background-color: #FFDFD3;
+}
+
+.item {
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px 0;
+    padding: 10px;
+    height: 250px;
+
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 75px;
+}
+
+.item .title {
+    font-weight: bold;
+    font-family: ;
+
+}
+
+
+
+
+
+
+
+
+
+
+.bottomNav {
+    background-color: #F9E6FB;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.bottomNav .nav {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding-top: 1ex;
+    padding-bottom: 2em;
+
+}
+
+.bottomNav .round {
+    Position: relative; 
+    top: -2em;
+    background-color: #F9E6FB;
+    padding: 1em 2em;
+    border-radius: 50%;
+    Margin: -1em -2em;
+
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .bottomNav {
+        display: none;
+    }
+}
+
+
+/*unify image sizes
+,svg icons
+figure out font families
+bottom nav
+button text color
+look into margin/padding
+custom styling active filter .filters .active
